@@ -32,7 +32,8 @@ export default defineAppConfig({
       logo: true,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
+      fluid: true,
+      title: 'SREDevOps.org'
     }
   }
 })
