@@ -1,22 +1,27 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    title: 'SREDevOps.org',
+    description: 'Noticias, Tutoriales, Información, Comunidad DevOps, Site Reliability Engineering (SRE) y Platform Engineering 🌎 🇨🇱 🇧🇷 🇪🇸',
+    image: '/SREOPS.png',
     socials: {
-      twitter: 'nuxt_js',
-      github: 'nuxt-themes/docus',
+      twitter: '@sredevopsorg',
+      github: 'sredevopsdev',
+
       nuxt: {
         label: 'Nuxt',
         icon: 'simple-icons:nuxtdotjs',
         href: 'https://nuxt.com'
-      }
+      },
+
+      facebook: 'https://facebook.com/sredevops',
+      instagram: 'https://instagram.com/sredevopsorg',
+      youtube: 'https://youutube.com/@sredevopsorg'
     },
     github: {
       dir: '.starters/default/content',
       branch: 'main',
       repo: 'docus',
-      owner: 'nuxt-themes',
+      owner: 'ngeorger',
       edit: true
     },
     aside: {
