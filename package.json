@@ -1,6 +1,6 @@
 {
-  "name": "docus-starter",
-  "version": "0.1.0",
+  "name": "docus-sredevopsorg",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
@@ -13,9 +13,11 @@
     "@nuxt-themes/docus": "latest",
     "@nuxt/devtools": "^0.8.5",
     "@nuxt/eslint-config": "^0.2.0",
-    "@nuxtjs/plausible": "^0.2.3",
+    "@nuxthq/studio": "^1.0.0",
     "@types/node": "^20.8.2",
+    "dotenv": "^16.3.1",
     "eslint": "^8.50.0",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.7.4",
+    "nuxt-simple-sitemap": "^3.4.0"
   }
 }

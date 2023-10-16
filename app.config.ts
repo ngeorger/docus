@@ -15,7 +15,8 @@ export default defineAppConfig({
 
       facebook: 'https://facebook.com/sredevops',
       instagram: 'https://instagram.com/sredevopsorg',
-      youtube: 'https://youutube.com/@sredevopsorg'
+      youtube: 'https://youtube.com/@sredevopsorg',
+      linkedin: 'https://linkedin.com/company/sredevops'
     },
     github: {
       dir: '.starters/default/content',
@@ -38,7 +39,8 @@ export default defineAppConfig({
       showLinkIcon: true,
       exclude: [],
       fluid: true,
-      title: 'SREDevOps.org'
+      title: 'SREDevOps.org',
+      showSearch: false
     }
   }
 })
